@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: #606C5D;
+}
+
+.calculator{
+    border: 4px solid black;
+    justify-content: space-around;
+    height: 600px;
+    width: 400px;
+    flex-direction: column;
+    display: flex;
+    background: #27374D;
+    font-size: 50px;
+}
+
+.calculatorScreen{
+    justify-content: center;
+    border: 4px solid black;
+    height: 100px;
+    width: 385px;
+    margin: 4px;
+    background: #9BABB8;
+    font-family: "Comic Sans MS";
+}
+
+#beforeOperation{
+    min-height: 32px;
+    font-size: 20px;
+}
+#operation{
+    min-height: 64px;
+    font-size: 40px;
+}
+
+.numbers{
+    border: 4px solid black;
+    height: 420px;
+    width: 385px;
+    margin: 4px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Button{
+    border: 2px solid black;
+    height: 90px;
+    width: 90px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: "Comic Sans MS";
+    font-size: 50px;
+    background: #9BABB8;
+}
+
+.cd{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#clear,
+#delete{
+    border: 4px solid black;
+    flex-direction: row;
+    height: 50px;
+    width: 194px;
+    font-family: "Comic Sans MS";
+    font-size: 30px;
+    background: #9BABB8;
+}
+
